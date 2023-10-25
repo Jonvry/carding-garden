@@ -38,12 +38,12 @@ export default function Gallery() {
 
             <div className="relative flex items-center justify-center md:col-span-2 md:row-span-2">
               <button className="absolute left-4" onClick={prevImage}><Image className="rotate-180" src="/Arrow.svg" width="20" height="20"/></button>
-                <Image  className="w-full h-full rounded-2xl" width="800" height="250" src={images[currentImage]} alt="Slider" />
+                <Image  className="w-full h-full rounded-2xl" width="800" height="250" src={images[currentImage]} alt="gardenSlider" />
               <button className="absolute right-4" onClick={nextImage}><Image src="/Arrow.svg" width="20" height="20"/></button>
             </div>
 
-              <Image className="w-full h-full rounded-2xl hidden lg:block" src="/pexels17.webp" width="300" height="150" alt=""/>
-              <Image className="w-full h-full rounded-2xl hidden lg:block" src="/pexels2.webp" width="300" height="150" alt=""/>
+              <Image className="w-full h-full rounded-2xl hidden lg:block" src="/pexels17.webp" width="300" height="150" alt="garden"/>
+              <Image className="w-full h-full rounded-2xl hidden lg:block" src="/pexels2.webp" width="300" height="150" alt="garden"/>
         </div> 
     </section>
   )

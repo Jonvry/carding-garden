@@ -7,7 +7,7 @@ export default function ContactUs() {
         <div className="mt-10 flex flex-col gap-6 lg:flex-row">
 
             <div className="bg-gray-200 rounded-xl w-full lg:w-[60%] ">
-              <Image className="w-full h-full rounded-xl" src="/gardening.webp" width="600" height="200"/>
+              <Image className="w-full h-full rounded-xl" src="/gardening.webp" width="600" height="200" alt="garden tools"/>
             </div>
             
             <form className="border border-gray-300 p-4 rounded-xl grid gap-2 w-full m-auto lg:w-[22rem]">

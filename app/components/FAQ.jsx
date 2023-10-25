@@ -59,7 +59,7 @@ const Accordion = (props) => {
         <div className="min-h-[3rem] bg-slate-100 border border-gray-300 rounded-md overflow-hidden">
             <button 
              onClick={toggleAccordion} 
-             type='button'
+             type="button"
              className="w-full  px-4 py-2 text-lg text-left text-cyan-950 font-semibold 
                         flex justify-between items-center gap-4" 
              >{props.Title}

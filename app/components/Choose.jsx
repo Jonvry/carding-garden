@@ -42,7 +42,7 @@ export default function Choose() {
 const Card = (props) => {
     return (
         <div className="flex gap-4">
-            <Image className="self-start mt-1" src={props.src} width="20" height="10"/>
+            <Image className="self-start mt-1" src={props.src} width="20" height="10" alt="check-icon"/>
             <div className="">
                 <h3 className="font-semibold text-cyan-950 text-2xl">{props.heading}</h3>
                 <p className="text-zinc-600">{props.text}</p>

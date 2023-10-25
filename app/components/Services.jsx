@@ -48,7 +48,7 @@ const Card = (props) => {
         <div className="bg-green-50 w-full grid p-4 rounded-2xl">
             <div className="flex items-center justify-between gap-4">
                 <h3 className="text-cyan-950 font-semibold text-2xl">{props.heading}</h3>
-                <Image src={props.src} width="50" height="50"/>
+                <Image src={props.src} width="50" height="50" alt="icon"/>
             </div>
             <p className="mt-4 text-zinc-600">{props.text}</p>
         </div>

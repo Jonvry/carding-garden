@@ -21,10 +21,10 @@ const Card = (props) => {
     return (
         <div className='snap-start bg-blue-50 p-6 rounded-2xl shadow-[rgba(99,99,99,0.2)_0px_2px_8px_0px] min-w-[22.5rem] lg:min-w-full'>
             <div className='flex items-center gap-4'>
-                <Image className="aspect-square rounded-[50%]" src={props.src} width="50" height="50" atr=""/>
+                <Image className="aspect-square rounded-[50%]" src={props.src} width="50" height="50" alt="avatar"/>
                     <div>
                         <h3 className="text-cyan-950 font-semibold">{props.name}</h3>
-                        <Image className="w-full" src="/star.svg" width="120" height="80" atr=""/>
+                        <Image className="w-full" src="/star.svg" width="120" height="80" alt="star"/>
                     </div>
             </div>
                 <p className="mt-4 text-zinc-600">{props.text}</p>

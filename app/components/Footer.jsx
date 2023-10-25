@@ -15,28 +15,28 @@ export default function Footer() {
                     </p>
                         <div className="flex items-center gap-4">
                             <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
-                                <Image src="/facebook-logo.svg" width="20" height="20" alt=""/>
+                                <Image src="/facebook-logo.svg" width="20" height="20" alt="facebook icon"/>
                             </a>
                             <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
-                                <Image src="/instagram-logo.svg" width="20" height="20" alt=""/>
+                                <Image src="/instagram-logo.svg" width="20" height="20" alt="instagram icon"/>
                             </a>
                             <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
-                                <Image src="/x-logo.svg" width="20" height="20" alt=""/>
+                                <Image src="/x-logo.svg" width="20" height="20" alt="twitter icon"/>
                             </a>       
                         </div>
                 </div>
                 <div className="grid gap-1 basis-[30%]">
                     <h3 className="font-semibold">Contact Us</h3>
                         <div className="mt-3 flex items-center gap-4 lg:mt-0">
-                            <Image src="/mail.svg" width="20" height="20" alt=""/>
+                            <Image src="/mail.svg" width="20" height="20" alt="email icon"/>
                             <p>sample@email.com</p>
                         </div>
                         <div className="flex items-center gap-4">
-                            <Image src="/location.svg" width="20" height="20" alt=""/>
+                            <Image src="/location.svg" width="20" height="20" alt="location icon"/>
                             <p>Manila, Phillipines</p>
                         </div>
                         <div className="flex items-center gap-4">
-                            <Image src="/phone.svg" width="20" height="20" alt=""/>
+                            <Image src="/phone.svg" width="20" height="20" alt="phone icon"/>
                             <p><Link href="tel:+987-123-456">987-123-456</Link></p>
                         </div>
                 </div>
