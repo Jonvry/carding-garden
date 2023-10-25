@@ -8,7 +8,14 @@ export const metadata = {
   description: 'Our gardening services are your key to a thriving and beautiful outdoor space. Whether you have a lush garden, a cozy backyard, or a simple balcony, we offer a range of professional gardening solutions to meet your needs. ',
   themeColor: '#047857',
   keywords: "Gardening Services, Garden Maintenance",
-  
+
+  alternates: {
+    canonical: "https://carding-garden.vercel.app/",
+    languages: {
+      'en-US': "https://carding-garden.vercel.app/en-US",
+    },
+  },
+
   openGraph: {
       siteName: 'Carding Garden',
       images: [
